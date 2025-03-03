@@ -158,6 +158,44 @@ By analyzing the table and the data correlation chart:
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.2+-+What+are+the+factors+that+most+affect+a+game's+sales?" alt="Typing SVG" />
 </a>
 
+<p align="justify">
+This question is crucial for understanding the main drivers behind game sales on the Steam platform. By analyzing various factors such as price, user reviews, release date, game genre, among others, it is possible to identify which of these factors have the greatest impact on sales. This can help developers, publishers, and investors make strategic decisions, such as setting appropriate prices, planning marketing campaigns, and guiding the development of new games.<br><br>
+<strong>Note</strong>: The dataset does not contain a sales column. To estimate sales, the maximum number of users (max_owners) was used, as these players had to acquire the games to play them.<br><br>
+For the analysis of the factors that most affect game sales, the fields with the highest correlation to the max_owners field were examined using a correlation table, and the best subsets were identified through a graphical representation.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3a469a4f-2734-4303-ab29-47ae11f527e2" width="70%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a5e780c7-7734-4c41-b396-0c8ab697088d" width="40%">
+</p>
+
+<p align="justify">
+Using the table and the graph, it is observed that the fields with <strong>the highest correlation to the max_owners field are positive and negative feedback</strong>. Therefore, the factors that may influence this feedback will be analyzed later. Additionally, <strong>other fields of some importance include the release date (release_date) and the price (price)</strong>.<br><br>
+The reasons for the high correlation between positive feedback and the number of users, followed by the correlation with negative feedback, are as follows:
+</p>
+
+<ul style="text-align: justify;">
+<li><strong>Game Quality</strong>: Games that receive positive player reception tend to attract more users. If a game is well-received by the gaming community due to its gameplay, graphics, storyline, or other elements, it is more likely to draw a larger user base.</li>
+<li><strong>Recommendations and Reviews</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
+<li><strong>User Retention</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
+<li><strong>Buzz Marketing (Word of Mouth)</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
+</ul>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c7c57bed-0c5f-41b7-ac44-5541c54d5b75" width="50%">
+</p>
+
+<p align="justify">
+While there is a correlation between positive feedback and the number of users, other factors not included in the analysis may also influence the user base. Additionally, the correlation between negative feedback and the number of users may indicate that games with low negative feedback also tend to attract more users (as observed in the decision tree, where 78% of users choose a game when it has low negative feedback).
+</p>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.3+-+According+to+a+set+of+factors,+will+the+game+receive+positive+feedback?" alt="Typing SVG" />
+</a>
+
 <h2 align="left">
 </h2>
 
@@ -170,8 +208,8 @@ By analyzing the table and the data correlation chart:
 </p>
 
 <ul style="text-align: justify;">
-  <li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
-  <li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.sql" download>Click here to view the SQL file</a></li>
+  <li></li>
+  <li></li>
 </ul>
 
 <h2 align="left">
