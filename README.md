@@ -121,10 +121,42 @@ Identifying the game with the most positive feedback can be helpful for players 
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5+-+Relational+Database+Model" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5+-+Business+Analytics+Questions" alt="Typing SVG" />
 </a>
 
-![Relational_Database_Model](https://github.com/user-attachments/assets/badb7712-d7c3-471e-abd0-370ca688dd21)
+<br>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.1+-+Data+Correlation+Analysis" alt="Typing SVG" />
+</a>
+
+<p align="justify">
+<strong>Note</strong>: During the data cleaning process, two factors (minimum number of users and time to complete the game) were removed due to being incomplete and irrelevant for the analyses to be conducted.<br><br>
+To gain an overview of the data, I created a table and a correlation chart using the "square" method:
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5a6efd92-23f7-470d-8d2b-445cf8ccaf4d" width="70%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3edace34-47db-4e91-8ddf-e837d2cda628" width="45%">
+</p>
+
+<p align="justify">
+By analyzing the table and the data correlation chart:
+</p>
+
+<ul style="text-align: justify;">
+  <li><strong>The release date (release_date) and game categories (app_id)</strong> show the highest correlation of 0.904, within a range of 0 to 1.</li>
+  <li><strong>The maximum number of users (max_owners) and positive feedback (positive)</strong> show a correlation of 0.826.</li>
+  <li><strong>Negative feedback (negative) and positive feedback (positive)</strong> show a correlation of 0.714.</li>
+  <li><strong>The maximum number of users (max_owners) and negative feedback (negative)</strong> show a correlation of 0.660.</li>
+</ul>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.2+-+What+are+the+factors+that+most+affect+a+game's+sales?" alt="Typing SVG" />
+</a>
 
 <h2 align="left">
 </h2>
