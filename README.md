@@ -13,8 +13,8 @@
 </a>
 
 <p align="justify">
-This project was developed as part of the Data Analyst course at CESAE Digital, with the goal of consolidating knowledge in R through autonomous exploratory and statistical data analysis.<br><br>
-Each student had the freedom to choose the dataset to be analyzed, and this project focuses on exploring the "Steam Games 2013 to 2023" dataset, obtained from the Kaggle platform.<br><br>
+This project was developed as part of the Data Analyst course at CESAE Digital, with the goal of consolidating knowledge in R through autonomous exploratory and statistical data analysis.<br>
+Each student had the freedom to choose the dataset to be analyzed, and this project focuses on exploring the "Steam Games 2013 to 2023" dataset, obtained from the Kaggle platform.<br>
 The original report was written in European Portuguese, as was the R code, which retains variable names and annotations in the original language. However, for portfolio purposes, the report has been restructured and translated into English.
 </p>
 
@@ -26,9 +26,9 @@ The original report was written in European Portuguese, as was the R code, which
 </a>
 
 <p align="justify">
-The statement defined by the instructor for this project aimed to guide the execution of a critical data analysis using R.<br><br>
-In this phase, it was necessary to select a suitable dataset for the analysis. After making this choice, R code was developed for loading and performing a preliminary exploration of the dataset. Additionally, the creation of a report in Word or, alternatively, a PowerPoint presentation was required, including an initial description of the chosen dataset.<br><br>
-As part of the analytical process, two Business Intelligence (BI) questions and two Business Analytics (BA) questions had to be formulated, justifying their relevance to the analysis.<br><br>
+The statement defined by the instructor for this project aimed to guide the execution of a critical data analysis using R.<br>
+In this phase, it was necessary to select a suitable dataset for the analysis. After making this choice, R code was developed for loading and performing a preliminary exploration of the dataset. Additionally, the creation of a report in Word or, alternatively, a PowerPoint presentation was required, including an initial description of the chosen dataset.<br>
+As part of the analytical process, two Business Intelligence (BI) questions and two Business Analytics (BA) questions had to be formulated, justifying their relevance to the analysis.<br>
 Once these requirements were completed, the next step of the project involved answering the BI and BA questions based on the available data.
 </p>
 
@@ -40,10 +40,10 @@ Once these requirements were completed, the next step of the project involved an
 </a>
 
 <p align="justify">
-The R programming project aims to conduct a comprehensive analysis of game data available on the Steam platform from 2013 to 2023. Steam is one of the largest digital distribution platforms for PC games and software, offering a wide variety of titles across different genres.<br><br>
-The analyzed data consists of a set of relevant information about the games, including the game title, release date, price, number of positive and negative reviews, category identification (app_id), and the maximum number of users.<br><br>
-The main objective of the project is to explore this data to identify interesting insights into the Steam gaming market over the years.<br><br>
-The project includes data visualization through charts and tables to facilitate interpretation and communication of the results. Additionally, data preprocessing and cleaning techniques (Excel, Power BI, and R) were used to ensure the quality and integrity of the analyses.<br><br>
+The R programming project aims to conduct a comprehensive analysis of game data available on the Steam platform from 2013 to 2023. Steam is one of the largest digital distribution platforms for PC games and software, offering a wide variety of titles across different genres.<br>
+The analyzed data consists of a set of relevant information about the games, including the game title, release date, price, number of positive and negative reviews, category identification (app_id), and the maximum number of users.<br>
+The main objective of the project is to explore this data to identify interesting insights into the Steam gaming market over the years.<br>
+The project includes data visualization through charts and tables to facilitate interpretation and communication of the results. Additionally, data preprocessing and cleaning techniques (Excel, Power BI, and R) were used to ensure the quality and integrity of the analyses.<br>
 Finally, the goal is to provide valuable insights for game and software developers, market analysts, and gaming industry enthusiasts, contributing to a deeper understanding of the gaming landscape on the Steam platform over the years.
 </p>
 
@@ -61,7 +61,7 @@ Finally, the goal is to provide valuable insights for game and software develope
 </a>
 
 <p align="justify">
-This question is essential for understanding the popularity and commercial success of games on the Steam platform over time. Identifying the best-selling game can provide valuable insights into player preferences and market trends. Additionally, this information can be useful for game developers and investors when assessing the profit potential of new projects.<br><br>
+This question is essential for understanding the popularity and commercial success of games on the Steam platform over time. Identifying the best-selling game can provide valuable insights into player preferences and market trends. Additionally, this information can be useful for game developers and investors when assessing the profit potential of new projects.<br>
 Since my dataset does not have a "sales" column, I analyzed the maximum number of owners, as each player had to acquire the game. However, some games are free (price = 0) but still highly profitable due to in-game transactions. Therefore, I divided this question into two analyses: one excluding free games and another including them.
 </p>
 
@@ -69,21 +69,52 @@ Since my dataset does not have a "sales" column, I analyzed the maximum number o
   <img src="https://github.com/user-attachments/assets/1e934e7f-852e-4dd1-8405-0779042b1ae6" width="60%" alt="New World">
 </p>
 
-<ul style="text-align: justify;">
-  <li><strong>Table "jogos":</strong> Stores information about games, including name, publisher, release date, supported languages, genre, and developer.</li><br>
-  <li><strong>Table "dlcs":</strong> Contains details about additional content (DLCs) associated with games, such as name, publisher, release date, supported languages, genre, and developer.</li><br>
-  <li><strong>Table "generos":</strong> Maintains a list of game genres, such as action, adventure, RPG, etc.</li><br>
-  <li><strong>Table "desenvolvedores":</strong> Stores information about game developers, including name and country of origin.</li><br>
-  <li><strong>Table "utilizadores":</strong> Registers system users, including username, registration date, and associated games/DLCs.</li><br>
-  <li><strong>Table "analises":</strong> Stores reviews made by users for games/DLCs, including rating and review date.</li><br>
-  <li><strong>Table "vendas":</strong> Records sales of games/DLCs, including price, purchase date, and associated user.</li><br>
-  <li><strong>Table "eventospromocoes":</strong> Contains details about events and promotions related to games/DLCs, such as name, start/end dates, discounted price, and associated developer.</li><br>
-  <li><strong>Table "transmissaoaovivo":</strong> Stores information about live streams related to games/DLCs, including start/end dates and associated user.</li><br>
-  <li><strong>Table "comentarios":</strong> Registers comments made by users for games/DLCs, including comment text, comment date, and associated user.</li>
-</ul>
+<p align="justify">
+<strong>The best-selling game, excluding free games, is New World</strong>, with a total of <strong>one hundred million</strong> (100,000,000) players. By consulting the auxiliary table, it was found that the app_id corresponds to an MMO (Massively Multiplayer Online) game, <strong>where players cooperate but also compete against each other</strong> (PVP), and <strong>in-game transactions with real money are possible</strong>.<br>
+<strong>The price of $39.99 falls within the expected range</strong>, as most games from well-known developers have a launch price of $69.99 for franchises already popular among players.<br>
+<strong>Player feedback</strong> for this game <strong>is mostly positive</strong> (154,914) compared to negative (73,900). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to in-game transactions disrupting the balance of player-versus-player fights</strong> <sup>[1]</sup>.
+</p>
 
-<p style="text-align: justify;">
-This project provides a solid foundation for managing information related to the gaming universe, enabling queries, analysis, and tracking of various activities within the SteamDB environment.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/56e6a0b9-629c-41d2-835d-44e79cc632c2" width="60%" alt="Dota 2">
+</p>
+
+<p align="justify">
+<strong>The best-selling game, including free games, is Dota 2</strong>, with a total of <strong>two hundred million</strong> (200,000,000) <strong>players</strong>. By consulting the auxiliary table, it was found that the app_id corresponds to a game <strong>where players cooperate</strong> and where <strong>in-game transactions with real money are possible</strong>.<br>
+<strong>The game is free</strong> but includes in-game transactions and as <strong>it is a game from 2013, it already has a well-established community that pays for exclusive in-game content</strong>.<br>
+<strong>Player feedback</strong> for this game <strong>is overwhelmingly positive</strong> (1,477,153) compared to negative (300,437). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to the game's steep learning curve and the presence of players with inappropriate behavior in the community</strong> <sup>[2]</sup>.
+</p>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=4.2+-+What+is+the+highest-priced+game+on+the+platform?" alt="Typing SVG" />
+</a>
+
+<p align="justify">
+Knowing which game has the highest price on the Steam platform is important to understand the price range of games available. This can indicate whether there is a demand for premium games and whether players are willing to pay more for certain titles. Additionally, this information can be useful for consumers who wish to make informed decisions about their game purchases.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/458394f0-097b-494a-a7b8-b535d8c8df2e" width="60%" alt="Aartform Curvy 3D 3.0">
+</p>
+
+<p align="justify">
+<strong>The highest price on the Steam platform is $299.9, and it belongs to Artform Curvy 3D 3.0</strong>. Consulting the supporting table, the app_id corresponds to single-player games. As a result, I researched and found that <strong>it is not a game but a sculpting program for 3D artists</strong>. It is evident that this software has been around for over 10 years (<strong>since 2013</strong>), yet it has few users (max_owners=20,000). <strong>The feedback is mostly positive</strong> but small in volume (32 positive, 13 negative). The reason for <strong>the negative feedback is the high price in relation to the limited tools available in the program</strong> <sup>[3]</sup>.
+</p>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=4.3+-+Which+game+has+the+most+positive+feedback?" alt="Typing SVG" />
+</a>
+
+<p align="justify">
+Identifying the game with the most positive feedback can be helpful for players looking for high-quality gaming experiences. Additionally, for game developers, understanding what players value and appreciate in a game can guide the development of future projects and improve the overall quality of games released. This information can also be valuable for publishers and investors when assessing the potential success of a particular game.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2460b257-8fe7-43c0-bce6-9e5f55064985" width="60%" alt="Dota 2">
+</p>
+
+<p align="justify">
+<strong>The game with the most positive feedback is Dota 2</strong>, with nearly one and a half million positive reviews. Dota 2 has already been mentioned in this project, as it also has the largest number of users (max_owners). This overwhelmingly positive feedback is due to it being a game with over 10 years of existence, during which it has built a strong community. Even after all this time, it continues to receive frequent updates. As a <strong>free-to-play game</strong>, it <strong>allows many players to try it out</strong>, enjoy the experience, and <strong>contribute to the feedback</strong> <sup>[2]</sup>.
 </p>
 
 <h2 align="left">
