@@ -1,9 +1,9 @@
 <a id="top"></a> 
 
 <p align="center" style="margin: 0;">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=35&duration=1&pause=1&color=FF9900&repeat=false&center=true&vCenter=true&width=800&height=70&lines=SteamDB" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=35&duration=1&pause=1&color=FF9900&repeat=false&center=true&vCenter=true&width=800&height=70&lines=Steam+Games+2013+to+2023" alt="Typing SVG" />
   <br>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=20&duration=1&pause=1&color=FF9900&repeat=false&center=true&vCenter=true&width=800&height=70&lines=SQL+Project+-+Cesae+Digital" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&size=20&duration=1&pause=1&color=FF9900&repeat=false&center=true&vCenter=true&width=800&height=70&lines=R+Project+-+Cesae+Digital" alt="Typing SVG" />
 </p>
 
 <h2 align="left"></h2>
@@ -12,11 +12,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=1+-+Contextualization" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
-  This project was developed as part of the Data Analyst course at CESAE Digital, with the goal of consolidating SQL knowledge through the creation of a relational database and the execution of various structured operations and queries.<br><br>
-  Each student had the autonomy to choose the theme of the database to be developed, and this project focuses on building a database inspired by the SteamDB platform.<br><br>
-  The following report was originally written in European Portuguese, including both the SQL database implementation and the detailed project documentation. However, for portfolio purposes, the report has been restructured and translated into English, while maintaining the original table and column names.<br><br>
-  The document structure follows the guidelines provided by the instructor, presenting both the required specifications and a detailed description of the project development.<br>
+<p align="justify">
+This project was developed as part of the Data Analyst course at CESAE Digital, with the goal of consolidating knowledge in R through autonomous exploratory and statistical data analysis.<br><br>
+Each student had the freedom to choose the dataset to be analyzed, and this project focuses on exploring the "Steam Games 2013 to 2023" dataset, obtained from the Kaggle platform.<br><br>
+The original report was written in European Portuguese, as was the R code, which retains variable names and annotations in the original language. However, for portfolio purposes, the report has been restructured and translated into English.
 </p>
 
 <h2 align="left">
@@ -26,136 +25,48 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2+-+Proposed+Statement" alt="Typing SVG" />
 </a>
 
-<br>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.1+-+Database+Requirements" alt="Typing SVG" />
-</a>
-
-<ul style="text-align: justify;">
-<li>1 - Design a database with at least 8 interrelated tables</li>
-</ul>
-
-<ul style="text-align: justify;">
-<li>2 - Create in SQL:<br></li>
-  <ul>
-  <li>2.1 - Creation:<br></li>
-    <ul>
-    <li>2.1.1 - Database<br></li>
-    <li>2.1.2 - Tables<br></li>
-    </ul>
-  <li>2.2 - Deletion:<br></li>
-    <ul>
-    <li>2.2.1 - Database<br></li>
-    <li>2.2.2 - Tables<br></li>
-    <li>2.2.3 - Records<br></li>
-    </ul>
-  <li>2.3 - Modification:<br></li>
-    <ul>
-    <li>2.3.1 - Tables<br></li>
-    <li>2.3.2 - Records<br></li>
-    </ul>
-  <li>2.4 - Insert at least 10 records into each table<br></li>
-  <li>2.5 - Query creation:<br></li>
-    <ul>
-    <li>2.5.1 - 5 simples queries using criteria<br></li>
-    <li>2.5.2 - At least one cross query<br></li>
-    <li>2.5.3 - 4 queries using functions (Date, Mathematical, etc)<br></li>
-    <li>2.5.4 - Use of at least 8 functions<br></li>
-    <li>2.5.5 - Use of operators AND, OR, NOT, LIKE, IN, BETWEEN, etc<br></li>
-    <li>2.5.6 - Server protection against mass data deletion<br></li>
-    <li>2.5.7 - Triggers<br></li>
-    </ul>
-  </ul>
-</ul>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.2+-+Report+Structure" alt="Typing SVG" />
-</a>
-
-<ul style="text-align: justify;">
-<li>1 - Introduction</li>
-<ul>
-  <li>Characteristics of database servers, particularly MySQL Server<br></li>
-  <li>Comparison with other servers like SQL Server, etc<br></li>
-</ul>  
-<li>2 - Project Description</li>
-<li>3 - Relational Database Model</li>
-<li>4 - Project Code</li>
-<li>5 - Data Tables</li>
-<li>6 - Conclusion</li>
-<li>7 - Bibliography</li>
-</ul>
-
+<p align="justify">
+The statement defined by the instructor for this project aimed to guide the execution of a critical data analysis using R.<br><br>
+In this phase, it was necessary to select a suitable dataset for the analysis. After making this choice, R code was developed for loading and performing a preliminary exploration of the dataset. Additionally, the creation of a report in Word or, alternatively, a PowerPoint presentation was required, including an initial description of the chosen dataset.<br><br>
+As part of the analytical process, two Business Intelligence (BI) questions and two Business Analytics (BA) questions had to be formulated, justifying their relevance to the analysis.<br><br>
+Once these requirements were completed, the next step of the project involved answering the BI and BA questions based on the available data.
+</p>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3+-+Introduction" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3+-+Project+Description" alt="Typing SVG" />
 </a>
 
-<br>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.1+-+What+is+Structured+Query+Language+(SQL)?" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-SQL is a programming language used by almost all relational databases to query, manipulate, and define data and to provide access control. SQL was first developed at IBM in the 1970s, with Oracle as one of the main contributors, which led to the implementation of the ANSI SQL standard. SQL has driven many extensions from companies such as IBM, Oracle, and Microsoft. Although SQL is still widely used today, new programming languages are beginning to emerge <sup>[1]</sup>.<br>
+<p align="justify">
+The R programming project aims to conduct a comprehensive analysis of game data available on the Steam platform from 2013 to 2023. Steam is one of the largest digital distribution platforms for PC games and software, offering a wide variety of titles across different genres.<br><br>
+The analyzed data consists of a set of relevant information about the games, including the game title, release date, price, number of positive and negative reviews, category identification (app_id), and the maximum number of users.<br><br>
+The main objective of the project is to explore this data to identify interesting insights into the Steam gaming market over the years.<br><br>
+The project includes data visualization through charts and tables to facilitate interpretation and communication of the results. Additionally, data preprocessing and cleaning techniques (Excel, Power BI, and R) were used to ensure the quality and integrity of the analyses.<br><br>
+Finally, the goal is to provide valuable insights for game and software developers, market analysts, and gaming industry enthusiasts, contributing to a deeper understanding of the gaming landscape on the Steam platform over the years.
 </p>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.2+-+What+is+Database+Software?" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-Database software is used to create, edit, and maintain database files and records, allowing for easier file and record creation, data entry, data editing, updating, and report generation. The software also handles data storage, backup and report generation, multi-access control, and security. Strong database security is especially important today, as data theft becomes more frequent. Sometimes, database software is also referred to as a "database management system" (DBMS) <sup>[1]</sup>.<br>
-Database software simplifies data management by allowing users to store data in a structured way and then access it. It usually features a graphical interface that helps create and manage data, and in some cases, users can build their own databases using database software <sup>[1]</sup>.<br>
-</p>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.3+-+What+is+a+Database+Management+System+(DBMS)?" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-A database usually requires a comprehensive database software program, known as a Database Management System (DBMS). A DBMS acts as an interface between the database and its users or end programs, allowing users to retrieve, update, and manage how information is organized and optimized. The DBMS also facilitates database supervision and control, enabling a variety of administrative operations, such as performance monitoring, optimization, backup, and recovery <sup>[1]</sup>.<br>
-Some examples of popular database software, or DBMSs, include MySQL, Microsoft Access, Microsoft SQL Server, FileMaker Pro, Oracle Database, and dBASE <sup>[1]</sup>.<br>
-</p>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.4+-+What+is+a+MySQL+Database?" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-MySQL is an open-source relational database management system based on SQL. It was designed and optimized for web applications and can run on any platform. As new and different requirements emerged with the Internet, MySQL became the platform of choice for developers and web-based applications. Since it was designed to handle millions of queries and thousands of transactions, MySQL is a popular choice for e-commerce companies that need to manage multiple financial transactions. On-demand flexibility is MySQL’s key feature <sup>[1]</sup>.<br>
-MySQL is the DBMS behind some of the world's leading websites and web-based applications, including Airbnb, Uber, LinkedIn, Facebook, Twitter, and YouTube <sup>[1]</sup>.<br>
-</p>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.5+-+Types+of+Databases" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-First, you must determine when to choose a relational database over a non-relational database and vice versa. Since SQL databases are structured, they are perfect for handling transactions, records, and libraries. NoSQL databases have the capability to support all forms of data, including text, images, IoT notifications, and other types of big data. Both SQL and NoSQL databases readily provide their respective data formats for search and analysis <sup>[2]</sup>.<br>
-Let's look at some of the most used SQL and NoSQL databases:
-</p>
-<ul style="text-align: justify;">
-<li><strong>SQL Server:</strong> SQL database services are typically built on a relational database management system, and many benefit from cloud computing capabilities. Azure SQL, for example, is a family of managed SQL database services built on the SQL Server database engine and hosted in the Azure cloud <sup>[2]</sup>.<br></li>
-<li><strong>PostgreSQL:</strong> PostgreSQL is an advanced object-relational database management system (ORDBMS) that stores and scales workloads too complex to be supported by standard systems. A cloud-based PostgreSQL service, such as Azure Database for PostgreSQL, offers additional enterprise-grade features and extensibility, along with support from the PostgreSQL open-source community <sup>[2]</sup>.<br></li>
-<li><strong>MySQL:</strong> MySQL is one of the most popular and widely used open-source relational database management systems in modern application development. Unlike SQL, MySQL is software rather than a language. A managed MySQL database service, such as Azure Database for MySQL, allows you to provision a database in minutes and scale just as quickly <sup>[2]</sup>.<br></li>
-<li><strong>NoSQL:</strong> NoSQL database services enable users to develop modern, high-performance, and reactive applications at any size or scale. They also support a wide range of open-source databases. Azure Cosmos DB supports PostgreSQL, MongoDB, and Apache Cassandra, is fully managed, and is capable of automatic updates and auto-scaling <sup>[2]</sup>.<br></li>
-</ul>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Project+Description" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Business+Intelligence+Questions" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
-The SQL database project based on the SteamDB website consists of creating a database structure to store information related to games, DLCs, genres, developers, users, reviews, sales, events/promotions, live streams, and comments. Each table represents a main entity or an important aspect of the SteamDB ecosystem.<br>
+<br>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=4.1+-+What+is+the+best-selling+game+over+the+years+(2013-2023)?" alt="Typing SVG" />
+</a>
+
+<p align="justify">
+This question is essential for understanding the popularity and commercial success of games on the Steam platform over time. Identifying the best-selling game can provide valuable insights into player preferences and market trends. Additionally, this information can be useful for game developers and investors when assessing the profit potential of new projects.<br><br>
+Since my dataset does not have a "sales" column, I analyzed the maximum number of owners, as each player had to acquire the game. However, some games are free (price = 0) but still highly profitable due to in-game transactions. Therefore, I divided this question into two analyses: one excluding free games and another including them.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1e934e7f-852e-4dd1-8405-0779042b1ae6" width="60%" alt="New World">
 </p>
 
 <ul style="text-align: justify;">
