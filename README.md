@@ -275,7 +275,7 @@ Additionally, the full report with all analyses and insights is available for do
 </p>
 
 <ul align="justify">
-<li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
+<li><a href="https://github.com/David-Nogueira/Steam_Games_2013_to_2023-R_Project-Cesae_Digital/raw/main/Steam%20Games%202013%20to%202023%20-%20R%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
 </ul>
 
 <h2 align="left">
