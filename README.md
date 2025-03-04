@@ -196,6 +196,57 @@ While there is a correlation between positive feedback and the number of users, 
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=700&lines=5.3+-+According+to+a+set+of+factors,+will+the+game+receive+positive+feedback?" alt="Typing SVG" />
 </a>
 
+<p align="justify">
+This question aims to understand the key factors that influence users' positive feedback on a game. By analyzing a combination of factors such as price, user ratings, game genre, game duration, and others, it is possible to determine which characteristics lead to more positive feedback. This can be valuable for game developers, guiding the development process to create games that meet players' expectations and preferences, resulting in better reception and market success.<br>
+For the analysis of the factors that contribute to predicting whether a game will receive positive feedback, the fields with the highest correlation to the "positive" variable were examined using a correlation table.
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c902800d-41fd-48be-a630-9635ca511357" width="70%">
+</p>
+
+<p align="justify">
+This correlation table once again confirms the previously observed information, showing that positive feedback has a strong correlation with the <strong>max_owners</strong> field and negative feedback. The next most relevant factor is <strong>price</strong>.<br><br>
+Following this, a predictive model was built, which resulted in an R² value of:
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/125d0a79-e58e-4e16-a5f3-90759be56396" width="50%">
+</p>
+
+<p align="justify">
+A <strong>coefficient of determination (R²) of 0.754</strong> indicates that approximately <strong>75.4% of the variability</strong> in the response variable (<strong>positive feedback</strong>) can be explained by the model. This means that the model can capture and explaining a significant portion of the observed variability in players' positive feedback regarding games.<br>
+An R² of 0.754 is considered quite high and suggests that the model has a reasonably strong ability to predict positive feedback based on the given data. This can be interpreted as an indication that the factors considered in the model (such as negative feedback, price, etc.) have a strong relationship with players' positive feedback.<br>
+However, it is important to emphasize that <strong>R² alone does not determine the validity or quality of the model</strong>. Therefore, it is always crucial to conduct a more in-depth analysis, including the evaluation of other model performance metrics and the consideration of potential limitations in the data and modeling.<br><br>
+To support this evaluation, I created a <strong>table and a scatter plot</strong> comparing the predicted values to the actual values:
+</p>
+
+<ul style="text-align: justify;">
+  <li><strong>Table with actual values:</strong></li>
+</ul>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e90d03a5-c52c-409c-b0b2-465a68e5366c" width="70%">
+</p>
+
+<ul style="text-align: justify;">
+  <li><strong>Table with predicted values:</strong></li>
+</ul>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5022490c-70ca-41c2-a95f-6bb15541755c" width="60%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/880cc093-46eb-4efa-b4b4-ef6e95deaea1" width="60%">
+</p>
+
+<p align="justify">
+By comparing the predicted <strong>positive feedback</strong> values with the actual values in the original dataset, it is evident that the values are <strong>close</strong>. The <strong>minimum</strong> value for both the actual and predicted feedback is <strong>0</strong>. The <strong>maximum actual</strong> positive feedback value is <strong>1477153</strong>, while the <strong>predicted maximum</strong> is <strong>1171197</strong>, resulting in a difference of 305956 between the actual and predicted maximum values. The <strong>average actual</strong> value is <strong>1046</strong>, whereas the <strong>predicted average</strong> is <strong>1058</strong>.
+</p>
+
+
+
 <h2 align="left">
 </h2>
 
