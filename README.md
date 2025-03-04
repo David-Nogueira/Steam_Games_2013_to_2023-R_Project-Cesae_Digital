@@ -242,109 +242,72 @@ To support this evaluation, I created a <strong>table and a scatter plot</strong
 </p>
 
 <p align="justify">
-By comparing the predicted <strong>positive feedback</strong> values with the actual values in the original dataset, it is evident that the values are <strong>close</strong>. The <strong>minimum</strong> value for both the actual and predicted feedback is <strong>0</strong>. The <strong>maximum actual</strong> positive feedback value is <strong>1477153</strong>, while the <strong>predicted maximum</strong> is <strong>1171197</strong>, resulting in a difference of 305956 between the actual and predicted maximum values. The <strong>average actual</strong> value is <strong>1046</strong>, whereas the <strong>predicted average</strong> is <strong>1058</strong>.
-</p>
-
-
-
-<h2 align="left">
-</h2>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=6+-+Project+Code" alt="Typing SVG" />
-</a>
-
-<p style="text-align: justify;">
-  The complete project code can be found in the PDF report, which contains the detailed implementation of the database, as well as in the SQL file available for download.
+By comparing the predicted <strong>positive feedback</strong> values with the actual values in the original dataset, it is evident that the values are <strong>close</strong>. The <strong>minimum</strong> value for both the actual and predicted feedback is <strong>0</strong>. The <strong>maximum actual</strong> positive feedback value is <strong>1477153</strong>, while the <strong>predicted maximum</strong> is <strong>1171197</strong>, resulting in a difference of 305956 between the actual and predicted maximum values. The <strong>average actual</strong> value is <strong>1046</strong>, whereas the <strong>predicted average</strong> is <strong>1058</strong>.<br><br>
+By analyzing the scatter plot, it is evident that the predicted values and actual values are close. However, some values are more dispersed and not as condensed.<br><br>
+<strong>Therefore, this model is good for predicting positive feedback for games, considering only that the maximum predicted value may not be as close to the actual value, tending to be lower than the real value.</strong><br><br>
+It is concluded that <strong>a game will receive positive feedback if</strong>:
 </p>
 
 <ul style="text-align: justify;">
-  <li></li>
-  <li></li>
+<li><strong>It has many players</strong>, as the game will receive more positive feedback. This happens if the game becomes popular, and users are satisfied with the overall gaming experience.</li>
+<li><strong>It receives less negative feedback</strong>, suggesting an inverse relationship between user satisfaction and negative reviews.</li>
+<li><strong>Its price meets expectations</strong>. Higher-priced games may be perceived as offering greater value and, therefore, receive more positive feedback, provided they meet user expectations.</li>
 </ul>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7+-+Data+Tables" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=6+-+Share" alt="Typing SVG" />
 </a>
 
-<br>
+<p style="text-align: justify;">
+The R script used in this project can be downloaded here:
+</p>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.1+-+Table+Jogos" alt="Typing SVG" />
-</a>
+<ul align="justify">
+<li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the R script</a></li>
+</ul>
 
-![Table_Jogos](https://github.com/user-attachments/assets/ceb15c07-6b26-40cd-acc7-7f3d7e18c3f9)
+<p style="text-align: justify;">
+This file contains all the code used for data preparation, analysis, and visualization, allowing for review or adaptation as needed for future analyses.<br><br>
+Additionally, the full report with all analyses and insights is available for download:
+</p>
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.2+-+Table+DLCs" alt="Typing SVG" />
-</a>
-
-![Table_DLCs](https://github.com/user-attachments/assets/c278a12d-186b-442f-ae2e-a995050f33b2)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.3+-+Table+Generos" alt="Typing SVG" />
-</a>
-
-![Table Generos](https://github.com/user-attachments/assets/6e9574d8-84f7-43a9-ad83-b180b934f8c9)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.4+-+Table+Desenvolvedores" alt="Typing SVG" />
-</a>
-
-![Table_Desenvolvedores](https://github.com/user-attachments/assets/46615123-90ba-49c1-8fcc-7f7867abfde0)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.5+-+Table+Utilizadores" alt="Typing SVG" />
-</a>
-
-![Table_Utilizadores](https://github.com/user-attachments/assets/9d713795-b5b2-4e33-940b-2a29c24ec1cc)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.6+-+Table+Vendas" alt="Typing SVG" />
-</a>
-
-![Table_Vendas](https://github.com/user-attachments/assets/94930903-df47-43ed-bcb6-2a72ad2296c9)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.7+-+Table+EventosPromocoes" alt="Typing SVG" />
-</a>
-
-![Table_EventosPromocoes](https://github.com/user-attachments/assets/3e41060f-7fef-4572-bd12-380279d6013b)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.8+-+Table+TransmissaoAoVivo" alt="Typing SVG" />
-</a>
-
-![Table_TransmissaoAoVivo](https://github.com/user-attachments/assets/80fb297f-5827-447e-86e1-9d9b4fef2898)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.9+-+Table+Comentarios" alt="Typing SVG" />
-</a>
-
-![Table_Comentarios](https://github.com/user-attachments/assets/52442206-8a07-45df-a7a7-1c14c4afd33e)
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.10+-+Table+Analises" alt="Typing SVG" />
-</a>
-
-![Table_Analises](https://github.com/user-attachments/assets/7e44f036-7e69-4c2a-8052-1a1fafbbdd34)
-
+<ul align="justify">
+<li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
+</ul>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=8+-+Conclusion" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7+-+Conclusion" alt="Typing SVG" />
 </a>
 
 <p style="text-align: justify;">
-This SQL database project, based on the SteamDB website, presents a comprehensive structure for storing and managing information related to games, DLCs, and associated activities. The implementation of this project took some time and effort, as I had no prior experience or skills in SQL development, and due to the complexity involved in certain functionalities.<br><br>
-In terms of time, the initial implementation of the database schema and main tables might have been faster, especially if I were already familiar with SQL and data modeling. However, it was the creation of advanced queries and triggers that consumed the most time, particularly to ensure data integrity.<br><br>
-Regarding difficulty, this project presented several challenges, especially when dealing with complex relationships between tables and ensuring data consistency. Proper database modeling required careful attention to detail to avoid potential issues.<br><br>
-In summary, although this project provides a solid foundation for managing information related to games and associated activities, successful implementation requires careful planning, strong technical skills, and attention to detail to overcome potential challenges and limitations.
+With this R programming project on Steam platform games from 2013 to 2023, it was possible to gain valuable insights into the behavior of both games and users. The selected questions for analysis were fundamental in understanding various aspects of the online gaming market.<br><br>
+We began by identifying the best-selling game over the years, considering both paid and free games. Then, we determined the highest-priced games on the platform and identified the game with the most positive feedback, which allowed us to better understand player preferences.<br><br>
+One of the most important analyses was identifying the factors that most affect a game's sales. By exploring the correlation between different variables, such as positive feedback, negative feedback, price, and others, we were able to identify significant patterns that influence a game's commercial success on the platform.
+An additional question raised was whether, based on a set of factors, it would be possible to predict whether a game would receive positive feedback.<br><br>
+Despite the challenges encountered, such as the need for prior dataset cleaning (over 60,000 records cleaned and normalized in Excel, Power BI, and R) and the selection of appropriate models, including the use of rpart for decision tree construction instead of C50 and the analysis of R² and scatter plots (without using the ROC model) to assess the quality of the prediction model, we managed to reach relevant conclusions.<br><br>
+In conclusion, this project provided a comprehensive view of the Steam gaming market, demonstrating the importance of data analysis in understanding and decision-making in the digital entertainment sector. The findings and methodologies employed in this project can serve as a foundation for future analyses and for improving game development and commercialization strategies on the platform.
+</p>
+
+<h2 align="left">
+</h2>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=8+-+Bibliography" alt="Typing SVG" />
+</a>
+
+<p style="text-align: justify;">
+[1] Valve Corporation, New World, consulted on Abril 6, 2024:<br>
+https://store.steampowered.com/app/1063730/New_World/<br><br>
+[2] Valve Corporation, Dota 2, consulted on Abril 6, 2024:<br>
+https://store.steampowered.com/app/570/Dota_2/<br><br>
+[3] Valve Corporation, AartfromCurvy 3D 3.0, consulted on Abril 6, 2024:<br>
+https://store.steampowered.com/app/253670/Aartform_Curvy_3D_30/<br><br>
 </p>
 
 <h2 align="left">
