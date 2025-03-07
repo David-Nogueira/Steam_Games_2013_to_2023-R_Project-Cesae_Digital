@@ -13,9 +13,9 @@
 </a>
 
 <p align="justify">
-This project was developed as part of the Data Analyst course at CESAE Digital, with the goal of consolidating knowledge in R through autonomous exploratory and statistical data analysis.<br>
-Each student had the freedom to choose the dataset to be analyzed, and this project focuses on exploring the "Steam Games 2013 to 2023" dataset, obtained from the Kaggle platform.<br>
-The original report was written in European Portuguese, as was the R code, which retains variable names and annotations in the original language. However, for portfolio purposes, the report has been restructured and translated into English.
+This project was developed as part of the <strong>Data Analyst course at CESAE Digital</strong>, with the goal of consolidating knowledge in R through autonomous exploratory and statistical data analysis.<br>
+Each student had the freedom to choose the dataset to be analyzed, and this project focuses on exploring the "<strong>Steam Games 2013 to 2023</strong>" dataset, obtained from the Kaggle platform.<br>
+The original report was written in <strong>European Portuguese</strong>, as was the <strong>R code</strong>, which retains variable names and annotations in the original language. However, for portfolio purposes, the <strong>report</strong> has been <strong>restructured and translated into English</strong>.
 </p>
 
 <h2 align="left">
