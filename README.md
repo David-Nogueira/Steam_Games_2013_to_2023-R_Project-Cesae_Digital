@@ -147,7 +147,7 @@ To gain an overview of the data, I created a table and a correlation chart using
 By analyzing the table and the data correlation chart:
 </p>
 
-<ul style="text-align: justify;">
+<ul align="justify">
   <li><strong>The release date (release_date) and game categories (app_id)</strong> show the highest correlation of 0.904, within a range of 0 to 1.</li>
   <li><strong>The maximum number of users (max_owners) and positive feedback (positive)</strong> show a correlation of 0.826.</li>
   <li><strong>Negative feedback (negative) and positive feedback (positive)</strong> show a correlation of 0.714.</li>
@@ -177,7 +177,7 @@ Using the table and the graph, it is observed that the fields with <strong>the h
 The reasons for the high correlation between positive feedback and the number of users, followed by the correlation with negative feedback, are as follows:
 </p>
 
-<ul style="text-align: justify;">
+<ul align="justify">
 <li><strong>Game Quality</strong>: Games that receive positive player reception tend to attract more users. If a game is well-received by the gaming community due to its gameplay, graphics, storyline, or other elements, it is more likely to draw a larger user base.</li>
 <li><strong>Recommendations and Reviews</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
 <li><strong>User Retention</strong>: Players often make purchasing decisions based on reviews and recommendations from other players. If a game receives positive feedback, it is more likely to attract new users who trust these reviews.</li>
@@ -221,7 +221,7 @@ However, it is important to emphasize that <strong>R² alone does not determine 
 To support this evaluation, I created a <strong>table and a scatter plot</strong> comparing the predicted values to the actual values:
 </p>
 
-<ul style="text-align: justify;">
+<ul align="justify">
   <li><strong>Table with actual values:</strong></li>
 </ul>
 
@@ -229,7 +229,7 @@ To support this evaluation, I created a <strong>table and a scatter plot</strong
   <img src="https://github.com/user-attachments/assets/e90d03a5-c52c-409c-b0b2-465a68e5366c" width="70%">
 </p>
 
-<ul style="text-align: justify;">
+<ul align="justify">
   <li><strong>Table with predicted values:</strong></li>
 </ul>
 
@@ -248,7 +248,7 @@ By analyzing the scatter plot, it is evident that the predicted values and actua
 It is concluded that <strong>a game will receive positive feedback if</strong>:
 </p>
 
-<ul style="text-align: justify;">
+<ul align="justify">
 <li><strong>It has many players</strong>, as the game will receive more positive feedback. This happens if the game becomes popular, and users are satisfied with the overall gaming experience.</li>
 <li><strong>It receives less negative feedback</strong>, suggesting an inverse relationship between user satisfaction and negative reviews.</li>
 <li><strong>Its price meets expectations</strong>. Higher-priced games may be perceived as offering greater value and, therefore, receive more positive feedback, provided they meet user expectations.</li>
@@ -261,7 +261,7 @@ It is concluded that <strong>a game will receive positive feedback if</strong>:
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=6+-+Share" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 The R script used in this project can be downloaded here:
 </p>
 
@@ -269,7 +269,7 @@ The R script used in this project can be downloaded here:
 <li><a href="https://github.com/David-Nogueira/Steam_Games_2013_to_2023-R_Project-Cesae_Digital/blob/main/Steam%20Games%202013%20to%202023%20-%20R%20Project%20-%20Cesae%20Digital.R" download>Click here to view the R file</a></li>
 </ul>
 
-<p style="text-align: justify;">
+<p align="justify">
 This file contains all the code used for data preparation, analysis, and visualization, allowing for review or adaptation as needed for future analyses.<br><br>
 Additionally, the full report with all analyses and insights is available for download:
 </p>
@@ -285,7 +285,7 @@ Additionally, the full report with all analyses and insights is available for do
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7+-+Conclusion" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 With this R programming project on Steam platform games from 2013 to 2023, it was possible to gain valuable insights into the behavior of both games and users. The selected questions for analysis were fundamental in understanding various aspects of the online gaming market.<br><br>
 We began by identifying the best-selling game over the years, considering both paid and free games. Then, we determined the highest-priced games on the platform and identified the game with the most positive feedback, which allowed us to better understand player preferences.<br><br>
 One of the most important analyses was identifying the factors that most affect a game's sales. By exploring the correlation between different variables, such as positive feedback, negative feedback, price, and others, we were able to identify significant patterns that influence a game's commercial success on the platform.
@@ -301,7 +301,7 @@ In conclusion, this project provided a comprehensive view of the Steam gaming ma
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=8+-+Bibliography" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 [1] Valve Corporation, New World, consulted on Abril 6, 2024:<br>
 https://store.steampowered.com/app/1063730/New_World/<br><br>
 [2] Valve Corporation, Dota 2, consulted on Abril 6, 2024:<br>
