@@ -14,7 +14,7 @@
 
 <p align="justify">
 This project was developed as part of the <strong>Data Analyst course at CESAE Digital</strong>, with the goal of consolidating knowledge in R through autonomous exploratory and statistical data analysis.<br>
-Each student had the freedom to choose the dataset to be analyzed, and this project focuses on exploring the "<strong>Steam Games 2013 to 2023</strong>" dataset, obtained from the Kaggle platform.<br>
+Each student had the freedom to choose the dataset to be analysed, and this project focuses on exploring the "<strong>Steam Games 2013 to 2023</strong>" dataset, obtained from the Kaggle platform.<br>
 The original report was written in <strong>European Portuguese</strong>, as was the <strong>R code</strong>, which retains variable names and annotations in the original language. However, for portfolio purposes, the <strong>report</strong> has been <strong>restructured and translated into English</strong>.
 </p>
 
@@ -41,7 +41,7 @@ Once these requirements were completed, the next step of the project involved an
 
 <p align="justify">
 The R programming project aims to conduct a comprehensive analysis of game data available on the Steam platform from 2013 to 2023. Steam is one of the largest digital distribution platforms for PC games and software, offering a wide variety of titles across different genres.<br>
-The analyzed data consists of a set of relevant information about the games, including the game title, release date, price, number of positive and negative reviews, category identification (app_id), and the maximum number of users.<br>
+The analysed data consists of a set of relevant information about the games, including the game title, release date, price, number of positive and negative reviews, category identification (app_id), and the maximum number of users.<br>
 The main objective of the project is to explore this data to identify interesting insights into the Steam gaming market over the years.<br>
 The project includes data visualization through charts and tables to facilitate interpretation and communication of the results. Additionally, data preprocessing and cleaning techniques (Excel, Power BI, and R) were used to ensure the quality and integrity of the analyses.<br>
 Finally, the goal is to provide valuable insights for game and software developers, market analysts, and gaming industry enthusiasts, contributing to a deeper understanding of the gaming landscape on the Steam platform over the years.
@@ -62,7 +62,7 @@ Finally, the goal is to provide valuable insights for game and software develope
 
 <p align="justify">
 This question is essential for understanding the popularity and commercial success of games on the Steam platform over time. Identifying the best-selling game can provide valuable insights into player preferences and market trends. Additionally, this information can be useful for game developers and investors when assessing the profit potential of new projects.<br>
-Since my dataset does not have a "sales" column, I analyzed the maximum number of owners, as each player had to acquire the game. However, some games are free (price = 0) but still highly profitable due to in-game transactions. Therefore, I divided this question into two analyses: one excluding free games and another including them.
+Since my dataset does not have a "sales" column, I analysed the maximum number of owners, as each player had to acquire the game. However, some games are free (price = 0) but still highly profitable due to in-game transactions. Therefore, I divided this question into two analyses: one excluding free games and another including them.
 </p>
 
 <p align="center">
@@ -70,9 +70,9 @@ Since my dataset does not have a "sales" column, I analyzed the maximum number o
 </p>
 
 <p align="justify">
-<strong>The best-selling game, excluding free games, is New World</strong>, with a total of <strong>one hundred million</strong> (100,000,000) players. By consulting the auxiliary table, it was found that the app_id corresponds to an MMO (Massively Multiplayer Online) game, <strong>where players cooperate but also compete against each other</strong> (PVP), and <strong>in-game transactions with real money are possible</strong>.<br>
+<strong>The best-selling game, excluding free games, is New World</strong>, with a total of <strong>one hundred million</strong> (100000000) players. By consulting the auxiliary table, it was found that the app_id corresponds to an MMO (Massively Multiplayer Online) game, <strong>where players cooperate but also compete against each other</strong> (PVP), and <strong>in-game transactions with real money are possible</strong>.<br>
 <strong>The price of $39.99 falls within the expected range</strong>, as most games from well-known developers have a launch price of $69.99 for franchises already popular among players.<br>
-<strong>Player feedback</strong> for this game <strong>is mostly positive</strong> (154,914) compared to negative (73,900). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to in-game transactions disrupting the balance of player-versus-player fights</strong> <sup>[1]</sup>.
+<strong>Player feedback</strong> for this game <strong>is mostly positive</strong> (154914) compared to negative (73900). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to in-game transactions disrupting the balance of player-versus-player fights</strong> <sup>[1]</sup>.
 </p>
 
 <p align="center">
@@ -80,9 +80,9 @@ Since my dataset does not have a "sales" column, I analyzed the maximum number o
 </p>
 
 <p align="justify">
-<strong>The best-selling game, including free games, is Dota 2</strong>, with a total of <strong>two hundred million</strong> (200,000,000) <strong>players</strong>. By consulting the auxiliary table, it was found that the app_id corresponds to a game <strong>where players cooperate</strong> and where <strong>in-game transactions with real money are possible</strong>.<br>
+<strong>The best-selling game, including free games, is Dota 2</strong>, with a total of <strong>two hundred million</strong> (200000000) <strong>players</strong>. By consulting the auxiliary table, it was found that the app_id corresponds to a game <strong>where players cooperate</strong> and where <strong>in-game transactions with real money are possible</strong>.<br>
 <strong>The game is free</strong> but includes in-game transactions and as <strong>it is a game from 2013, it already has a well-established community that pays for exclusive in-game content</strong>.<br>
-<strong>Player feedback</strong> for this game <strong>is overwhelmingly positive</strong> (1,477,153) compared to negative (300,437). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to the game's steep learning curve and the presence of players with inappropriate behavior in the community</strong> <sup>[2]</sup>.
+<strong>Player feedback</strong> for this game <strong>is overwhelmingly positive</strong> (1477153) compared to negative (300437). After researching on Steam, it was found that the reason for <strong>the negative feedback was due to the game's steep learning curve and the presence of players with inappropriate behaviour in the community</strong> <sup>[2]</sup>.
 </p>
 
 <a href="https://git.io/typing-svg">
@@ -98,7 +98,7 @@ Knowing which game has the highest price on the Steam platform is important to u
 </p>
 
 <p align="justify">
-<strong>The highest price on the Steam platform is $299.9, and it belongs to Artform Curvy 3D 3.0</strong>. Consulting the supporting table, the app_id corresponds to single-player games. As a result, I researched and found that <strong>it is not a game but a sculpting program for 3D artists</strong>. It is evident that this software has been around for over 10 years (<strong>since 2013</strong>), yet it has few users (max_owners=20,000). <strong>The feedback is mostly positive</strong> but small in volume (32 positive, 13 negative). The reason for <strong>the negative feedback is the high price in relation to the limited tools available in the program</strong> <sup>[3]</sup>.
+<strong>The highest price on the Steam platform is $299.9, and it belongs to Artform Curvy 3D 3.0</strong>. Consulting the supporting table, the app_id corresponds to single-player games. As a result, I researched and found that <strong>it is not a game but a sculpting program for 3D artists</strong>. It is evident that this software has been around for over 10 years (<strong>since 2013</strong>), yet it has few users (max_owners=20000). <strong>The feedback is mostly positive</strong> but small in volume (32 positive, 13 negative). The reason for <strong>the negative feedback is the high price in relation to the limited tools available in the program</strong> <sup>[3]</sup>.
 </p>
 
 <a href="https://git.io/typing-svg">
@@ -144,7 +144,7 @@ To gain an overview of the data, I created a table and a correlation chart using
 </p>
 
 <p align="justify">
-By analyzing the table and the data correlation chart:
+By analysing the table and the data correlation chart:
 </p>
 
 <ul align="justify">
@@ -159,7 +159,7 @@ By analyzing the table and the data correlation chart:
 </a>
 
 <p align="justify">
-This question is crucial for understanding the main drivers behind game sales on the Steam platform. By analyzing various factors such as price, user reviews, release date, game genre, among others, it is possible to identify which of these factors have the greatest impact on sales. This can help developers, publishers, and investors make strategic decisions, such as setting appropriate prices, planning marketing campaigns, and guiding the development of new games.<br><br>
+This question is crucial for understanding the main drivers behind game sales on the Steam platform. By analysing various factors such as price, user reviews, release date, game genre, among others, it is possible to identify which of these factors have the greatest impact on sales. This can help developers, publishers, and investors make strategic decisions, such as setting appropriate prices, planning marketing campaigns, and guiding the development of new games.<br><br>
 <strong>Note</strong>: The dataset does not contain a sales column. To estimate sales, the maximum number of users (max_owners) was used, as these players had to acquire the games to play them.<br><br>
 For the analysis of the factors that most affect game sales, the fields with the highest correlation to the max_owners field were examined using a correlation table, and the best subsets were identified through a graphical representation.
 </p>
@@ -173,7 +173,7 @@ For the analysis of the factors that most affect game sales, the fields with the
 </p>
 
 <p align="justify">
-Using the table and the graph, it is observed that the fields with <strong>the highest correlation to the max_owners field are positive and negative feedback</strong>. Therefore, the factors that may influence this feedback will be analyzed later. Additionally, <strong>other fields of some importance include the release date (release_date) and the price (price)</strong>.<br><br>
+Using the table and the graph, it is observed that the fields with <strong>the highest correlation to the max_owners field are positive and negative feedback</strong>. Therefore, the factors that may influence this feedback will be analysed later. Additionally, <strong>other fields of some importance include the release date (release_date) and the price (price)</strong>.<br><br>
 The reasons for the high correlation between positive feedback and the number of users, followed by the correlation with negative feedback, are as follows:
 </p>
 
@@ -197,7 +197,7 @@ While there is a correlation between positive feedback and the number of users, 
 </a>
 
 <p align="justify">
-This question aims to understand the key factors that influence users' positive feedback on a game. By analyzing a combination of factors such as price, user ratings, game genre, game duration, and others, it is possible to determine which characteristics lead to more positive feedback. This can be valuable for game developers, guiding the development process to create games that meet players' expectations and preferences, resulting in better reception and market success.<br>
+This question aims to understand the key factors that influence users' positive feedback on a game. By analysing a combination of factors such as price, user ratings, game genre, game duration, and others, it is possible to determine which characteristics lead to more positive feedback. This can be valuable for game developers, guiding the development process to create games that meet players' expectations and preferences, resulting in better reception and market success.<br>
 For the analysis of the factors that contribute to predicting whether a game will receive positive feedback, the fields with the highest correlation to the "positive" variable were examined using a correlation table.
 </p>
 
@@ -217,7 +217,7 @@ Following this, a predictive model was built, which resulted in an R² value of:
 <p align="justify">
 A <strong>coefficient of determination (R²) of 0.754</strong> indicates that approximately <strong>75.4% of the variability</strong> in the response variable (<strong>positive feedback</strong>) can be explained by the model. This means that the model can capture and explaining a significant portion of the observed variability in players' positive feedback regarding games.<br>
 An R² of 0.754 is considered quite high and suggests that the model has a reasonably strong ability to predict positive feedback based on the given data. This can be interpreted as an indication that the factors considered in the model (such as negative feedback, price, etc.) have a strong relationship with players' positive feedback.<br>
-However, it is important to emphasize that <strong>R² alone does not determine the validity or quality of the model</strong>. Therefore, it is always crucial to conduct a more in-depth analysis, including the evaluation of other model performance metrics and the consideration of potential limitations in the data and modeling.<br><br>
+However, it is important to emphasize that <strong>R² alone does not determine the validity or quality of the model</strong>. Therefore, it is always crucial to conduct a more in-depth analysis, including the evaluation of other model performance metrics and the consideration of potential limitations in the data and modelling.<br><br>
 To support this evaluation, I created a <strong>table and a scatter plot</strong> comparing the predicted values to the actual values:
 </p>
 
@@ -243,7 +243,7 @@ To support this evaluation, I created a <strong>table and a scatter plot</strong
 
 <p align="justify">
 By comparing the predicted <strong>positive feedback</strong> values with the actual values in the original dataset, it is evident that the values are <strong>close</strong>. The <strong>minimum</strong> value for both the actual and predicted feedback is <strong>0</strong>. The <strong>maximum actual</strong> positive feedback value is <strong>1477153</strong>, while the <strong>predicted maximum</strong> is <strong>1171197</strong>, resulting in a difference of 305956 between the actual and predicted maximum values. The <strong>average actual</strong> value is <strong>1046</strong>, whereas the <strong>predicted average</strong> is <strong>1058</strong>.<br><br>
-By analyzing the scatter plot, it is evident that the predicted values and actual values are close. However, some values are more dispersed and not as condensed.<br><br>
+By analysing the scatter plot, it is evident that the predicted values and actual values are close. However, some values are more dispersed and not as condensed.<br><br>
 <strong>Therefore, this model is good for predicting positive feedback for games, considering only that the maximum predicted value may not be as close to the actual value, tending to be lower than the real value.</strong><br><br>
 It is concluded that <strong>a game will receive positive feedback if</strong>:
 </p>
@@ -286,7 +286,7 @@ Additionally, the full report with all analyses and insights is available for do
 </a>
 
 <p align="justify">
-With this R programming project on Steam platform games from 2013 to 2023, it was possible to gain valuable insights into the behavior of both games and users. The selected questions for analysis were fundamental in understanding various aspects of the online gaming market.<br><br>
+With this R programming project on Steam platform games from 2013 to 2023, it was possible to gain valuable insights into the behaviour of both games and users. The selected questions for analysis were fundamental in understanding various aspects of the online gaming market.<br><br>
 We began by identifying the best-selling game over the years, considering both paid and free games. Then, we determined the highest-priced games on the platform and identified the game with the most positive feedback, which allowed us to better understand player preferences.<br><br>
 One of the most important analyses was identifying the factors that most affect a game's sales. By exploring the correlation between different variables, such as positive feedback, negative feedback, price, and others, we were able to identify significant patterns that influence a game's commercial success on the platform.
 An additional question raised was whether, based on a set of factors, it would be possible to predict whether a game would receive positive feedback.<br><br>
